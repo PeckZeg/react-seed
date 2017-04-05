@@ -1,0 +1,14 @@
+//
+//  Base
+//  --------------------------------------------------
+
+* {
+  &, &:before, &:after {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-family: $font-family-base;
+  background-color: #eee;
+}

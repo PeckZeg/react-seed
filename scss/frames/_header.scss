@@ -1,0 +1,12 @@
+//
+//  Frames - Header
+//  --------------------------------------------------
+
+#page-header {
+  position: fixed;
+  z-index: 65536;
+  top: 0;
+  left: 0;
+  @include size(100%, $header-height);
+  background-color: $white;
+}
